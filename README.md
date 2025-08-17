@@ -1,4 +1,4 @@
-# Prodana FS Test - Laravel Application
+# Prodana FS Test - Laravel Application -by Bertrandus Gabriel Utomo
 
 A Laravel web application with Livewire components for product management.
 
