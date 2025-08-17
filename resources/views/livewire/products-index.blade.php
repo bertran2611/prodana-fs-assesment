@@ -146,10 +146,10 @@
         <table class="w-full">
             <thead class="bg-gray-50">
                 <tr>
-                    <th class="text-left py-3 px-4">
+                    <!-- <th class="text-left py-3 px-4">
                         <input type="checkbox" wire:model="selectAll"
                             class="rounded border-gray-300 text-blue-600 focus:ring-blue-500">
-                    </th>
+                    </th> -->
                     <th class="text-left py-3 px-4 cursor-pointer hover:bg-gray-100 transition-colors duration-150"
                         wire:click="sortBy('name')">
                         <div class="flex items-center">
@@ -200,10 +200,10 @@
             <tbody>
                 @forelse($products as $p)
                 <tr class="border-b hover:bg-gray-50 transition-colors duration-150">
-                    <td class="py-3 px-4">
+                    <!-- <td class="py-3 px-4">
                         <input type="checkbox" wire:model="selectedProducts" value="{{ $p->id }}"
                             class="rounded border-gray-300 text-blue-600 focus:ring-blue-500">
-                    </td>
+                    </td> -->
                     <td class="py-3 px-4">
                         <div>
                             <div class="font-medium text-gray-900">{{ $p->name }}</div>
