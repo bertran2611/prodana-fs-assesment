@@ -12,6 +12,10 @@ Before running this application, make sure you have the following installed:
 -   **MySQL** or **SQLite** database
 -   **Git**
 
+## Test Account
+Email: admin@example.com
+Password: password
+
 ## Installation & Setup
 
 ### 1. Clone the Repository
